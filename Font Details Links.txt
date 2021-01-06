@@ -1,0 +1,13 @@
+1. Bebas Neu Font:
+Html : <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+Css : font-family: 'Bebas Neue', cursive;
+
+2. All Font Family
+
+html : <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap" rel="stylesheet">
+
+CSS : font-family: 'Bebas Neue', cursive;
+font-family: 'Roboto', sans-serif;
