@@ -1,12 +1,15 @@
 body{
-    margin: 0%;
+    margin: 0;
+    padding: 0;
     font-family: 'Bebas Neue', cursive;
-font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    line-height: 24px;
+    font-size: 15px;
 }
 
 h1{
-    font-size: 50px;
-    font-weight: 700;
+    font-size: 40px;
+    font-weight: 600;
 
 }
 
@@ -24,8 +27,11 @@ p{
     background-image: url("images/top-banner.png");
     background-repeat: no-repeat;
     background-position: left;
-
-    
+    box-sizing: border-box;
+    margin: auto;
+    width: 80%;
+    min-height: 200px;
+   
 }
 
 .half-width{
@@ -39,11 +45,6 @@ section img{
     width: 100%;
 }
 
-section{
-    height: 500px;
-    padding-bottom: 150px;
-    border: solid red 1px;
-}
 
 .link-button{
     text-decoration: none;
@@ -52,4 +53,92 @@ section{
     background-image: linear-gradient(45deg, #0084ff, #262691);
     padding: 10px 20px;
     border-radius: 5px;
+}
+
+.latest-works{
+    margin: auto;
+    width: 80%;
+    overflow: hidden;
+}
+
+.latest-works h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: bebas neue;
+    letter-spacing: .02em;
+    margin-bottom: 20px;
+    
+}
+
+header{
+    padding: 30px;
+    min-height: 70px;
+    border: solid 1px red;
+}
+
+.container{
+    margin: auto;
+    width: 80%;
+    overflow: hidden;
+}
+
+.container a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+
+}
+
+nav{
+    float: right;
+    margin-top: 20px;
+}
+
+header li{
+    float: left;
+    display: inline;
+    padding: 0px 20px 0px 20px;
+}
+
+.box{
+    float: left;
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+    text-align: justify;
+    margin-left: 5px;
+    box-shadow: 5px 5px 2px rgb(218, 218, 218);
+    border-radius: 5px;
+    height: 80%;
+
+}
+
+.boxes img{
+    width: 300px;
+}
+
+.box p{
+    font-family: 'Roboto', sans-serif;
+}
+
+.boxes{
+    padding-bottom: 20px;
+}
+
+.work-inquary{
+    background-image: url("shapes/Group_33094_2.png");
+    background-repeat: no-repeat;
+    min-height: 150px;
+    width: 60%;
+    margin: auto;
+    margin-top: 100px;
+    margin-right: 150px;
 }
