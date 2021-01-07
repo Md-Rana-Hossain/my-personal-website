@@ -8,6 +8,7 @@ body{
     line-height: 1.5;
 }
 
+
 .container{
     width: 80%;
     margin: auto;
@@ -76,6 +77,10 @@ h1{
 #showcase1{
     min-height: 400px;
    
+}
+
+#showcase1 p{
+    text-align: justify;
 }
 .half-container1{
     width: 40%;
@@ -196,6 +201,7 @@ h1{
     border-radius: 7px;
     font-size: 16px;
     margin-top: 50px;
+    color: black;
     
 }
 .floating2 a{
@@ -288,4 +294,8 @@ footer p{
     background-color: #fff5f5;
     margin: 0%;
     text-align: center;
+}
+.plink{
+    text-decoration: none;
+    font-weight: bold;
 }
