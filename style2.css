@@ -1,0 +1,291 @@
+/* Global */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+ul{
+    margin: 0%;
+    padding: 0%;
+}
+
+/* Header */
+header{
+    background: #275744;
+    color: white;
+    min-height: 70px;
+    text-align: center;
+}
+#navigation a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+#navigation li{
+    float: left;
+    display: inline;
+    padding: 0 0 0 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+#navigation{
+    float: right;
+}
+
+/* Showcase*/
+/*
+#showcase1{
+    min-height: 400px;
+    
+}
+.half-container1{
+    float: left;
+    width: 40%;
+    border: red solid 1px;
+    padding-left: 20px;
+}
+.half-container2{
+    float: right;
+    width: 40%;
+    border: red solid 1px;
+    padding-left: 20px;
+}
+img{
+    width: 100%;
+}
+h1{
+    font-size: 50px;
+
+}*/
+
+/* ShowcaseB*/
+
+#showcase1{
+    min-height: 400px;
+   
+}
+.half-container1{
+    width: 40%;
+    float: left;
+    padding-left: 5%;
+    margin: 2%;
+}
+#showcase1 img{
+    width: 100%;
+}
+h1{
+    font-size: 60px;
+    font-weight: 900;
+    padding: 0%;
+    margin: 0%;
+    margin-top: 20px;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 2px;
+    
+}
+.highlight{
+    color: coral;
+    padding-top: -10px;
+}
+.link-button{
+    background-image: linear-gradient(45deg, #7a7aff, #001849);
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: 700;
+    color: white;
+    border-radius: 5px;
+}
+
+/*Projects*/
+#projects h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 2px;
+}
+
+.thrid-one-container{
+    float: left;
+    width: 30%;
+    padding-left: 3.3%;
+    box-shadow: 10px 10px 25px rgb(230, 230, 230);
+    border-radius: 5%;
+    height: 80%;
+    padding-top: 10px;
+}
+
+.thrid-one-container img{
+    width: 300px;
+}
+
+#projects{
+    min-height: 400px;
+    padding: 100px 0;
+    background-color: #f6f6f6;
+    margin: 0%;
+}
+.project-c{
+    width: 80%;
+    min-height: 500px;
+    margin: auto;
+}
+
+/*Work Inquiry*/
+
+/* Contact */
+
+.contact2{
+    padding: 50px 0px;
+    margin-top: 50px;
+}
+.contact1{
+    border: solid #f1f1f1; /*Border Important*/
+    width: 77%;
+    min-height: 100px;
+    border-radius: 40px;
+    margin: auto;
+    background-image: url("shapes/Group_33094_1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.contact3{
+    width: 78%;
+    min-height: 100px;
+    border-radius: 30px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 55px;
+    padding-bottom: 25px;
+
+
+}
+.f2{
+    display: inline;
+}
+
+.floating1{
+    float: left;
+    font-size: 40px;
+    color: white;
+    font-weight: 500;
+    padding-bottom: 5px;
+    margin-bottom: 25px;
+    
+}
+
+.floating2{
+    float: right;
+    padding: 15px 25px;
+    background-image: linear-gradient(45deg, #ff8800, #ffd341);
+    border-radius: 7px;
+    font-size: 16px;
+    margin-top: 50px;
+    
+}
+.floating2 a{
+    text-decoration: none;
+}
+
+.socialmedia{
+    text-align: center;
+    width: 60%;
+    margin: auto;
+}
+
+.sm1{
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+    color: #696871;
+    font-weight: 300;
+    margin: 0px;
+}
+.sm2{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
+    color: #363958;
+    font-weight: 900;
+    margin: 0px;
+}
+
+#social-link{
+    height: 250px;
+    
+}
+
+
+.mainsmicon{
+    height: 50px;
+    margin: 0px;
+    padding: 25px 30px;
+}
+
+.mainsmicon a{
+    padding: 0px 10px 0px 10px;
+    
+}
+
+.socialmedia img{
+    width: 40px;
+    margin-top: -10px;
+}
+.mainsmicon .dribble img{
+    width: 43px;
+    padding-top: 5px;
+}
+
+/*Footer*/
+footer{
+    background-color: teal;
+    min-height: 75px;
+}
+
+footer p{
+    text-align: center;
+    color: white;
+    font-weight: 300;
+    padding-top: 25px;
+    font-size: 12px;
+}
+
+.servie img{
+    width: 175px;
+    padding: 20px;
+    position: relative;
+}
+
+/*service*/
+
+#pro2 h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 2px;
+}
+
+#pro2{
+    min-height: 400px;
+    padding: 100px 0;
+    background-color: #fff5f5;
+    margin: 0%;
+    text-align: center;
+}
